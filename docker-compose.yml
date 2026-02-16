@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3223:3000"
+    environment:
+      - REACT_APP_API_URL=http://localhost:8118
+    depends_on:
+      - web
+
+  web:
+    build: .
+    ports:
+      - "8118:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DATABASE_URL=postgresql://user:password@db:5432/mydatabase
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - PYTHONPATH=/app/backend
+    working_dir: /app/backend
+    command: uvicorn app:app --host 0.0.0.0 --port 8000
+    depends_on:
+      - db
+      - redis
+    volumes:
+      - ./backend:/app/backend
+
+  db:
+    image: postgres:15
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=mydatabase
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6380:6379"
+
+volumes:
+  db_data:
