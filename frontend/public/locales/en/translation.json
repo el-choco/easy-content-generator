@@ -1,0 +1,73 @@
+{
+  "header": {
+    "title": "Easy Content Generator",
+    "subtitle": "Generate amazing content with AI powered by Gemini"
+  },
+  "form": {
+    "language": "Language",
+    "tone": "Tone/Style",
+    "prompt": "Enter Your Prompt",
+    "placeholder": "Write a blog post about... or Generate a story about...",
+    "generate": "Generate Content",
+    "generating": "Generating...",
+    "template": "Select Template",
+    "templatePlaceholder": "Choose a template..."
+  },
+  "history": {
+    "title": "History",
+    "empty": "No content generated yet",
+    "delete": "Delete"
+  },
+  "content": {
+    "generatedTitle": "Generated Content",
+    "deleteButton": "Delete This Content",
+    "deleteConfirm": "Are you sure you want to delete this content?",
+    "editButton": "Edit Content",
+    "saveButton": "Save Changes",
+    "cancelButton": "Cancel",
+    "title": "Title"
+  },
+  "templates": {
+    "title": "Templates",
+    "custom": "Custom Templates",
+    "default": "Default Templates",
+    "create": "Create Template",
+    "edit": "Edit",
+    "delete": "Delete Template",
+    "deleteConfirm": "Are you sure you want to delete this template?",
+    "createNew": "Create New Template",
+    "name": "Template Name",
+    "category": "Category",
+    "promptText": "Template Prompt",
+    "save": "Save Template"
+  },
+  "export": {
+    "title": "Export",
+    "exportPDF": "Export PDF",
+    "exportWord": "Export Word",
+    "exportMarkdown": "Export Markdown",
+    "downloading": "Downloading..."
+  },
+  "tones": {
+    "professional": "Professional",
+    "casual": "Casual",
+    "creative": "Creative",
+    "technical": "Technical"
+  },
+    "clipboard": {
+    "copy": "Copy to Clipboard",
+    "copied": "Copied!",
+    "copyError": "Failed to copy"
+  },
+  "error": {
+    "emptyPrompt": "Please enter a prompt",
+    "fetchHistory": "Failed to load history",
+    "generateError": "Error generating content",
+    "deleteError": "Failed to delete content",
+    "loadContent": "Failed to load content",
+    "fetchTemplates": "Failed to load templates",
+    "createTemplate": "Failed to create template",
+    "deleteTemplate": "Failed to delete template",
+    "updateError": "Failed to update content"
+  }
+}

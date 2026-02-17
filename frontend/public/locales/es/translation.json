@@ -1,0 +1,73 @@
+{
+  "header": {
+    "title": "Generador de Contenido Fácil",
+    "subtitle": "Genera contenido increíble con IA impulsada por Gemini"
+  },
+  "form": {
+    "language": "Idioma",
+    "tone": "Tono/Estilo",
+    "prompt": "Ingrese su solicitud",
+    "placeholder": "Escriba una publicación de blog sobre... o Genere una historia sobre...",
+    "generate": "Generar contenido",
+    "generating": "Generando...",
+    "template": "Seleccionar plantilla",
+    "templatePlaceholder": "Elige una plantilla..."
+  },
+  "history": {
+    "title": "Historial",
+    "empty": "Aún no se ha generado contenido",
+    "delete": "Eliminar"
+  },
+  "content": {
+    "generatedTitle": "Contenido generado",
+    "deleteButton": "Eliminar este contenido",
+    "deleteConfirm": "¿Está seguro de que desea eliminar este contenido?",
+    "editButton": "Editar contenido",
+    "saveButton": "Guardar cambios",
+    "cancelButton": "Cancelar",
+    "title": "Título"
+  },
+  "export": {
+    "title": "Exportar",
+    "exportPDF": "Exportar PDF",
+    "exportWord": "Exportar Word",
+    "exportMarkdown": "Exportar Markdown",
+    "downloading": "Descargando..."
+  },
+  "templates": {
+    "title": "Plantillas",
+    "custom": "Plantillas personalizadas",
+    "default": "Plantillas predeterminadas",
+    "create": "Crear plantilla",
+    "edit": "Editar",
+    "delete": "Eliminar plantilla",
+    "deleteConfirm": "¿Está seguro de que desea eliminar esta plantilla?",
+    "createNew": "Crear nueva plantilla",
+    "name": "Nombre de plantilla",
+    "category": "Categoría",
+    "promptText": "Texto de plantilla",
+    "save": "Guardar plantilla"
+  },
+  "tones": {
+    "professional": "Profesional",
+    "casual": "Casual",
+    "creative": "Creativo",
+    "technical": "Técnico"
+  },
+    "clipboard": {
+    "copy": "Copiar al portapapeles",
+    "copied": "¡Copiado!",
+    "copyError": "Error al copiar"
+  },
+  "error": {
+    "emptyPrompt": "Por favor ingrese una solicitud",
+    "fetchHistory": "Error al cargar el historial",
+    "generateError": "Error al generar contenido",
+    "deleteError": "Error al eliminar el contenido",
+    "loadContent": "Error al cargar el contenido",
+    "fetchTemplates": "Error al cargar las plantillas",
+    "createTemplate": "Error al crear la plantilla",
+    "deleteTemplate": "Error al eliminar la plantilla",
+    "updateError": "Error al actualizar el contenido"
+  }
+}

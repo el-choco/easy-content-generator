@@ -1,0 +1,73 @@
+{
+  "header": {
+    "title": "Gerador de Conteúdo Fácil",
+    "subtitle": "Gere conteúdo incrível com IA alimentada por Gemini"
+  },
+  "form": {
+    "language": "Idioma",
+    "tone": "Tom/Estilo",
+    "prompt": "Digite sua solicitação",
+    "placeholder": "Escreva uma postagem de blog sobre... ou Gere uma história sobre...",
+    "generate": "Gerar conteúdo",
+    "generating": "Gerando...",
+    "template": "Selecionar modelo",
+    "templatePlaceholder": "Escolha um modelo..."
+  },
+  "history": {
+    "title": "Histórico",
+    "empty": "Nenhum conteúdo gerado ainda",
+    "delete": "Deletar"
+  },
+  "content": {
+    "generatedTitle": "Conteúdo gerado",
+    "deleteButton": "Deletar este conteúdo",
+    "deleteConfirm": "Tem certeza de que deseja deletar este conteúdo?",
+    "editButton": "Editar conteúdo",
+    "saveButton": "Salvar alterações",
+    "cancelButton": "Cancelar",
+    "title": "Título"
+  },
+    "export": {
+    "title": "Exportar",
+    "exportPDF": "Exportar PDF",
+    "exportWord": "Exportar Word",
+    "exportMarkdown": "Exportar Markdown",
+    "downloading": "Baixando..."
+  },
+  "templates": {
+    "title": "Modelos",
+    "custom": "Modelos personalizados",
+    "default": "Modelos padrão",
+    "create": "Criar modelo",
+    "edit": "Editar",
+    "delete": "Deletar modelo",
+    "deleteConfirm": "Tem certeza de que deseja deletar este modelo?",
+    "createNew": "Criar novo modelo",
+    "name": "Nome do modelo",
+    "category": "Categoria",
+    "promptText": "Texto do modelo",
+    "save": "Salvar modelo"
+  },
+  "tones": {
+    "professional": "Profissional",
+    "casual": "Casual",
+    "creative": "Criativo",
+    "technical": "Técnico"
+  },
+    "clipboard": {
+    "copy": "Copiar para a área de transferência",
+    "copied": "Copiado!",
+    "copyError": "Falha ao copiar"
+  },
+  "error": {
+    "emptyPrompt": "Por favor digite uma solicitação",
+    "fetchHistory": "Erro ao carregar o histórico",
+    "generateError": "Erro ao gerar conteúdo",
+    "deleteError": "Erro ao deletar o conteúdo",
+    "loadContent": "Erro ao carregar o conteúdo",
+    "fetchTemplates": "Erro ao carregar os modelos",
+    "createTemplate": "Erro ao criar o modelo",
+    "deleteTemplate": "Erro ao deletar o modelo",
+    "updateError": "Erro ao atualizar o conteúdo"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "header": {
+    "title": "Generatore di Contenuti Facile",
+    "subtitle": "Genera contenuti straordinari con intelligenza artificiale alimentata da Gemini"
+  },
+  "form": {
+    "language": "Lingua",
+    "tone": "Tono/Stile",
+    "prompt": "Inserisci la tua richiesta",
+    "placeholder": "Scrivi un articolo di blog su... o Genera una storia su...",
+    "generate": "Genera contenuto",
+    "generating": "Generazione in corso...",
+    "template": "Seleziona template",
+    "templatePlaceholder": "Scegli un template..."
+  },
+  "history": {
+    "title": "Cronologia",
+    "empty": "Nessun contenuto generato ancora",
+    "delete": "Elimina"
+  },
+  "content": {
+    "generatedTitle": "Contenuto generato",
+    "deleteButton": "Elimina questo contenuto",
+    "deleteConfirm": "Sei sicuro di voler eliminare questo contenuto?",
+    "editButton": "Modifica contenuto",
+    "saveButton": "Salva modifiche",
+    "cancelButton": "Annulla",
+    "title": "Titolo"
+  },
+  "export": {
+    "title": "Esporta",
+    "exportPDF": "Esporta PDF",
+    "exportWord": "Esporta Word",
+    "exportMarkdown": "Esporta Markdown",
+    "downloading": "Download in corso..."
+  },
+  "templates": {
+    "title": "Template",
+    "custom": "Template personalizzati",
+    "default": "Template predefiniti",
+    "create": "Crea template",
+    "edit": "Modifica",
+    "delete": "Elimina template",
+    "deleteConfirm": "Sei sicuro di voler eliminare questo template?",
+    "createNew": "Crea nuovo template",
+    "name": "Nome template",
+    "category": "Categoria",
+    "promptText": "Testo template",
+    "save": "Salva template"
+  },
+  "tones": {
+    "professional": "Professionale",
+    "casual": "Casual",
+    "creative": "Creativo",
+    "technical": "Tecnico"
+  },
+    "clipboard": {
+    "copy": "Copia negli appunti",
+    "copied": "Copiato!",
+    "copyError": "Errore nella copia"
+  },
+  "error": {
+    "emptyPrompt": "Per favore inserisci una richiesta",
+    "fetchHistory": "Errore nel caricamento della cronologia",
+    "generateError": "Errore nella generazione del contenuto",
+    "deleteError": "Errore nell'eliminazione del contenuto",
+    "loadContent": "Errore nel caricamento del contenuto",
+    "fetchTemplates": "Errore nel caricamento dei template",
+    "createTemplate": "Errore nella creazione del template",
+    "deleteTemplate": "Errore nell'eliminazione del template",
+    "updateError": "Errore nell'aggiornamento del contenuto"
+  }
+}

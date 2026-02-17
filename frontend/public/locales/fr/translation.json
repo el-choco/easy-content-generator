@@ -1,0 +1,73 @@
+{
+  "header": {
+    "title": "Générateur de Contenu Facile",
+    "subtitle": "Générez un contenu incroyable avec l'IA alimentée par Gemini"
+  },
+  "form": {
+    "language": "Langue",
+    "tone": "Ton/Style",
+    "prompt": "Entrez votre demande",
+    "placeholder": "Écrivez un article de blog sur... ou Générez une histoire sur...",
+    "generate": "Générer du contenu",
+    "generating": "Génération en cours...",
+    "template": "Sélectionner un modèle",
+    "templatePlaceholder": "Choisissez un modèle..."
+  },
+  "history": {
+    "title": "Historique",
+    "empty": "Aucun contenu généré pour le moment",
+    "delete": "Supprimer"
+  },
+  "content": {
+    "generatedTitle": "Contenu généré",
+    "deleteButton": "Supprimer ce contenu",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer ce contenu?",
+    "editButton": "Modifier le contenu",
+    "saveButton": "Enregistrer les modifications",
+    "cancelButton": "Annuler",
+    "title": "Titre"
+  },
+  "export": {
+    "title": "Exporter",
+    "exportPDF": "Exporter PDF",
+    "exportWord": "Exporter Word",
+    "exportMarkdown": "Exporter Markdown",
+    "downloading": "Téléchargement en cours..."
+  },
+  "templates": {
+    "title": "Modèles",
+    "custom": "Modèles personnalisés",
+    "default": "Modèles par défaut",
+    "create": "Créer un modèle",
+    "edit": "Modifier",
+    "delete": "Supprimer le modèle",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer ce modèle?",
+    "createNew": "Créer un nouveau modèle",
+    "name": "Nom du modèle",
+    "category": "Catégorie",
+    "promptText": "Modèle de texte",
+    "save": "Enregistrer le modèle"
+  },
+  "tones": {
+    "professional": "Professionnel",
+    "casual": "Casual",
+    "creative": "Créatif",
+    "technical": "Technique"
+  },
+    "clipboard": {
+    "copy": "Copier dans le presse-papiers",
+    "copied": "✅ Copié!",
+    "copyError": "Échec de la copie"
+  },
+  "error": {
+    "emptyPrompt": "Veuillez entrer une demande",
+    "fetchHistory": "Impossible de charger l'historique",
+    "generateError": "Erreur lors de la génération du contenu",
+    "deleteError": "Impossible de supprimer le contenu",
+    "loadContent": "Impossible de charger le contenu",
+    "fetchTemplates": "Impossible de charger les modèles",
+    "createTemplate": "Impossible de créer le modèle",
+    "deleteTemplate": "Impossible de supprimer le modèle",
+    "updateError": "Impossible de mettre à jour le contenu"
+  }
+}

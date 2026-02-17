@@ -1,0 +1,73 @@
+{
+  "header": {
+    "title": "Einfacher Content Generator",
+    "subtitle": "Erstelle großartige Inhalte mit KI powered by Gemini"
+  },
+  "form": {
+    "language": "Sprache",
+    "tone": "Ton/Stil",
+    "prompt": "Geben Sie Ihren Prompt ein",
+    "placeholder": "Schreibe einen Blog-Post über... oder Generiere eine Geschichte über...",
+    "generate": "Inhalte generieren",
+    "generating": "Wird generiert...",
+    "template": "Template auswählen",
+    "templatePlaceholder": "Wähle ein Template..."
+  },
+  "history": {
+    "title": "Verlauf",
+    "empty": "Noch kein Inhalt generiert",
+    "delete": "Löschen"
+  },
+  "content": {
+    "generatedTitle": "Generierter Inhalt",
+    "deleteButton": "Diesen Inhalt löschen",
+    "deleteConfirm": "Sind Sie sicher, dass Sie diesen Inhalt löschen möchten?",
+    "editButton": "Inhalt bearbeiten",
+    "saveButton": "Änderungen speichern",
+    "cancelButton": "Abbrechen",
+    "title": "Titel"
+  },
+  "export": {
+    "title": "Exportieren",
+    "exportPDF": "PDF exportieren",
+    "exportWord": "Word exportieren",
+    "exportMarkdown": "Markdown exportieren",
+    "downloading": "Wird heruntergeladen..."
+  },
+  "templates": {
+    "title": "Templates",
+    "custom": "Benutzerdefinierte Templates",
+    "default": "Standard Templates",
+    "create": "Template erstellen",
+    "edit": "Bearbeiten",
+    "delete": "Template löschen",
+    "deleteConfirm": "Sind Sie sicher, dass Sie dieses Template löschen möchten?",
+    "createNew": "Neues Template erstellen",
+    "name": "Template Name",
+    "category": "Kategorie",
+    "promptText": "Template Prompt",
+    "save": "Template speichern"
+  },
+  "tones": {
+    "professional": "Professionell",
+    "casual": "Casual",
+    "creative": "Kreativ",
+    "technical": "Technisch"
+  },
+    "clipboard": {
+    "copy": "In Zwischenablage kopieren",
+    "copied": "Kopiert!",
+    "copyError": "Kopieren fehlgeschlagen"
+  },
+  "error": {
+    "emptyPrompt": "Bitte geben Sie einen Prompt ein",
+    "fetchHistory": "Fehler beim Laden des Verlaufs",
+    "generateError": "Fehler beim Generieren von Inhalten",
+    "deleteError": "Fehler beim Löschen von Inhalten",
+    "loadContent": "Fehler beim Laden von Inhalten",
+    "fetchTemplates": "Fehler beim Laden der Templates",
+    "createTemplate": "Fehler beim Erstellen des Templates",
+    "deleteTemplate": "Fehler beim Löschen des Templates",
+    "updateError": "Fehler beim Aktualisieren des Inhalts"
+  }
+}
